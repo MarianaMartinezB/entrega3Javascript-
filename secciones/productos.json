@@ -1,0 +1,83 @@
+[
+    {
+        "id": "libro1",
+        "titulo": "Coaching CoActivo",
+        "imagen": "../imagenes/coactivo.jpg",
+        "categoria": {
+            "nombre": "Libros",
+            "id": "libros"
+        },
+        "precio": 3000
+    },
+    
+    {
+        "id": "libro2",
+        "titulo": "Coaching Equipos en la Practica",
+        "imagen": "../imagenes/equipos.jpg",
+        "categoria": {
+            "nombre": "Libros",
+            "id": "libros"
+        },
+        "precio": 5800
+    },
+    {
+        "id": "libro3",
+        "titulo": "Coaching para Transformacion Personal",
+        "imagen": "../imagenes/transformacion.jpg",
+        "categoria": {
+            "nombre": "Libros",
+            "id": "libros"
+        },
+        "precio": 8100
+    },
+    {
+        "id": "libro4",
+        "titulo": "Neurociencia aplicada al Coaching",
+        "imagen": "../imagenes/neurociencia.jpg",
+        "categoria": {
+            "nombre": "Libros",
+            "id": "libros"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "libro5",
+        "titulo": "Coaching John Withmore",
+        "imagen": "../imagenes/whitmore.jpg",
+        "categoria": {
+            "nombre": "Libros",
+            "id": "libros"
+        },
+        "precio": 16000
+    },
+    {
+        "id": "libro6",
+        "titulo": "Estrategias Coaching Ejecutivo",
+        "imagen": "../imagenes/bicondoa.jpg",
+        "categoria": {
+            "nombre": "Libros",
+            "id": "libros"
+        },
+        "precio": 3800
+    },
+    {
+        "id": "libro7",
+        "titulo": "Libro Coaching para Lideres",
+        "imagen": "../imagenes/evans.jpg",
+        "categoria": {
+            "nombre": "Libros",
+            "id": "libros"
+        },
+        "precio": 3800
+    },
+    {
+        "id": "libro8",
+        "titulo": "Un Mundo de Posibilidades",
+        "imagen": "../imagenes/perel.jpg",
+        "categoria": {
+            "nombre": "Libros",
+            "id": "libros"
+        },
+        "precio": 4500
+    }
+]
