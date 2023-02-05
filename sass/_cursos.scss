@@ -1,0 +1,67 @@
+@import "generales";
+
+.contenedor___cursos {
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    background-color: nth($colores, 7);
+
+    @media (max-width: 500px) {
+        margin-left: 10rem;
+        padding: 0.9rem;
+    }
+
+    .capacitacion {
+        width: min-content;
+        border: 18px solid #F5EDDC;
+        height: auto;
+
+        .imagen_curso {
+            box-shadow: 5px 5px 5px 0px rgba(207, 210, 207, 0.7);
+            -webkit-box-shadow: 5px 5px 5px 0px rgba(207, 210, 207, 0.7);
+            -moz-box-shadow: 5px 5px 5px 0px rgba(207, 210, 207, 0.7);
+            padding: 0.5rem;
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+            -webkit-transition: all 1s ease;
+            transition: all 1s ease;
+
+            &:hover {
+                filter: grayscale(0%);
+                filter: gray;
+                -webkit-filter: grayscale(0%);
+                -webkit-filter: saturate(200%);
+                filter: none;
+                transition: 1s ease;
+                overflow: hidden;
+            }
+
+            @media (max-width: 500px) {
+                resize: both;
+            }
+        }
+
+        .card-body {
+            padding: 1rem;
+            height: max-content;
+            width: fit-content;
+            position: relative;
+
+            @media (max-width: 700px) {
+                overflow: hidden;
+            }
+
+            .boton {
+                padding-left: 1.5rem;
+                @extend %botones;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
